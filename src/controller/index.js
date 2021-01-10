@@ -1,0 +1,12 @@
+zn.define([
+    './Batch',
+    './User',
+    './Merchant',
+    './MerchantOrder',
+    './My',
+    './Order',
+    './Product',
+    './Courier',
+    './Coupon',
+    './Restaurant'
+]);

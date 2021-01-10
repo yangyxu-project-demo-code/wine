@@ -1,0 +1,76 @@
+.rt-order-info{
+
+    .body{
+        .item {
+            background-color: #FFF;
+            padding: 5px;
+            margin-bottom: 5px;
+            .head{
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 30px;
+                border-bottom: 1px solid #ebebeb;
+            }
+        }
+        .info-title{
+
+            .title{
+                line-height: 24px;
+                border-bottom: 1px solid #f5f4f4;
+                font-weight: bold;
+            }
+            .info{
+                &>div{
+                    line-height: 22px;
+                    font-size: 13px;
+                }
+
+                .status{
+                    font-weight: bold;
+                    &.s0{
+                        color: red;
+                    }
+                    &.s1{
+                        color: #009688;
+                    }
+                    &.s2{
+                        color: #2196f3;
+                    }
+                    &.s3{
+                        color: #919191;
+                    }
+                }
+
+                .pay{
+                    margin-left: 20px;
+                    color: red;
+                    border: 1px solid red;
+                    padding: 2px 6px;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    &:active{
+                        background-color: red;
+                        color: #FFF;
+                    }
+                }
+            }
+        }
+        .info-address{
+            .title{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                line-height: 28px;
+            }
+            .info{
+                span{
+                    padding-right: 5px;
+                }
+            }
+        }
+
+    }
+    .foot{
+        padding: 5px;
+    }
+}

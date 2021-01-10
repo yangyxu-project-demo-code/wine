@@ -1,0 +1,6 @@
+.idea/*
+.DS_Store
+.git
+.gitosc
+run
+node_modules/*

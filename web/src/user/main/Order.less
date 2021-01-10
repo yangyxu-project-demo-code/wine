@@ -1,0 +1,98 @@
+.rt-main-order{
+    .header{
+        .title{
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            background-color: #FFF;
+            border-bottom: 1px solid #CCC;
+        }
+        .tabs{
+            line-height: 36px;
+        }
+    }
+}
+
+.order-item{
+    background-color: #FFF;
+    padding: 2px 5px;
+    .item-head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 12px;
+        line-height: 30px;
+        border-bottom: 1px solid #eeecec;
+        .status{
+            font-weight: bold;
+            &.s0{
+                color: red;
+            }
+            &.s1{
+                color: #009688;
+            }
+            &.s2{
+                color: #2196f3;
+            }
+            &.s3{
+                color: #919191;
+            }
+        }
+
+    }
+    .item-body{
+        padding: 5px 0px;
+
+        .total-price{
+            text-align: right;
+            font-size: 12px;
+            color: #870e1d;
+        }
+    }
+
+    .item-foot{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #eeecec;
+        font-size: 12px;
+        padding: 4px 2px;
+        line-height: 30px;
+        .btn{
+            border: 1px solid #eeecec;
+            padding: 3px 10px;
+            border-radius: 20px;
+            margin: 3px 6px;
+        }
+    }
+}
+
+.order-product-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px 0px;
+    border-bottom: 1px solid #f0f0f0;
+    .logo{
+        width: 48px;
+        height: 48px;
+
+    }
+    .detail{
+        flex: 1;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .title{
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .price{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}

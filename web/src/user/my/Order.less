@@ -1,0 +1,79 @@
+.rt-order {
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+
+        &>div{
+            flex: 1;
+            border-bottom: 5px solid transparent;
+            padding: 5px 6px;
+            &.curr{
+                border-bottom-color: #800010;
+                color: #800010;
+            }
+        }
+    }
+
+
+    .data-list{
+        .product{
+            background-color: #FFF;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin: 5px;
+            padding: 5px;
+            border: 1px solid #ebebeb;
+            display: flex;
+            flex-direction: column;
+            .info{
+                display: flex;
+                flex-direction: row;
+                height: 96px;
+                .icon{
+                    height: 100%;
+                    width: 96px;
+                }
+                .fields{
+                    flex: 1;
+                    padding: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .price{
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #F44336;
+                    }
+                }
+
+            }
+
+            .order{
+                margin-top: 5px;
+                border-top: 1px solid #ebebeb;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                line-height: 20px;
+                font-size: 13px;
+                .time{
+                    color: #d16b64;
+                    font-weight: bold;
+                }
+                .delete{
+                    border: 2px solid #F44336;
+                    border-radius: 5px;
+                    padding: 2px 5px;
+                    margin: 5px;
+                    color: #F44336;
+                }
+            }
+
+        }
+    }
+}

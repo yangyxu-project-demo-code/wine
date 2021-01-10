@@ -1,0 +1,31 @@
+{
+  "name": "hcredwine",
+  "version": "0.1.2",
+  "description": "红酒项目",
+  "main": "index.js",
+  "scripts": {
+    "release": "nohup zn run config:zn.server.config.js &",
+    "debug": "zn run config:zn.server.config.js",
+    "local": "zn run zn_path:../../zn/zeanium-node/",
+    "install.release": "npm install --production",
+    "install.dev": "npm install",
+    "web.release": "webpack",
+    "web.dev": "webpack --watch"
+  },
+  "keywords": [
+    "Project"
+  ],
+  "author": "yangyxu",
+  "license": "MIT",
+  "devDependencies": {
+    "qrcode.react": "^0.7.2",
+    "zeanium-react-web": "^0.1.26"
+  },
+  "dependencies": {
+    "nodemailer": "^2.6.4",
+    "request": "^2.81.0",
+    "xlsx": "^0.9.10",
+    "zn-plugin-admin": "^0.1.17",
+    "zn-plugin-wechat": "^0.1.6"
+  }
+}

@@ -1,0 +1,43 @@
+.rt-courier-message {
+    .message-item {
+        background-color: #FFF;
+        padding: 5px;
+        &.read-1{
+            color: #a09d9d !important;
+        }
+        .head{
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            color: #b34c2c;
+        }
+        .body{
+            border-top: 1px solid #f3efef;
+            border-bottom: 1px solid #f3efef;
+            padding: 5px 8px;
+            font-size: 14px;
+
+            .to-address{
+                border: 1px solid #f3efef;
+                padding: 5px;
+                .title{
+                    border-bottom: 1px solid #f3efef;
+                    font-weight: bold;
+                }
+                .name{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .address{
+                    &>span{
+                        padding-right: 8px;
+                    }
+                }
+            }
+        }
+        .foot{
+            font-size: 12px;
+        }
+    }
+}

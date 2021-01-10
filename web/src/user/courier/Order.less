@@ -1,0 +1,90 @@
+.rt-main-order{
+    .tabs{
+        text-align: center;
+        line-height: 30px;
+        font-weight: bold;
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &>div{
+            flex: 1;
+            &.curr{
+                color: #800010;
+            }
+        }
+    }
+    .data-list{
+        .courier-order-item{
+            background-color: #FFF;
+            padding: 5px;
+            margin: 5px 0px;
+            .item-head{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                font-size: 12px;
+                line-height: 24px;
+                border-bottom: 1px solid #eeecec;
+                .status{
+                    font-weight: bold;
+                    &.s2{
+                        color: #2196f3;
+                    }
+                    &.s3{
+                        color: #919191;
+                    }
+                }
+            }
+            .item-body{
+                padding: 5px 0px;
+                .order-product-item{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .logo{
+                        width: 48px;
+                        height: 48px;
+
+                    }
+                    .detail{
+                        flex: 1;
+                        font-size: 12px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .title{
+                            font-size: 14px;
+                            font-weight: bold;
+                        }
+                        .price{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                        }
+                    }
+                }
+
+                .total-price{
+                    text-align: right;
+                    font-size: 12px;
+                    color: #870e1d;
+                }
+            }
+
+            .item-foot{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                border-top: 1px solid #eeecec;
+                .btn{
+                    font-size: 10px;
+                    border: 1px solid #eeecec;
+                    padding: 3px 10px;
+                    border-radius: 20px;
+                    margin: 3px 6px;
+                }
+            }
+        }
+    }
+}

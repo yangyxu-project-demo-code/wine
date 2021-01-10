@@ -1,0 +1,65 @@
+.rt-merchant-settlement{
+    .tabs{
+        text-align: center;
+        line-height: 30px;
+        font-weight: bold;
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &>div{
+            flex: 1;
+            &.curr{
+                color: #800010;
+            }
+        }
+    }
+
+    .footer{
+        display: flex;
+        height: 100%;
+        border-top: 1px solid #f8f8f8;
+        box-shadow: 0 -3px 10px 0 rgba(0,0,0,.0785);
+        &>div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .left{
+            flex: 1;
+            text-align: right;
+            height: 100%;
+            font-size: 10px;
+            padding-right: 5px;
+            .count{
+                color: red;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0px 3px;
+                height: 100%;
+            }
+            .price{
+                color: red;
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+        .right{
+            background-color: #800010;
+            height: 100%;
+            color: #FFF;
+            width: 200px;
+            font-size: 10px;
+            text-align: center;
+        }
+    }
+
+    .settlement-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 12px;
+        padding: 5px;
+        background-color: #FFF;
+    }
+}

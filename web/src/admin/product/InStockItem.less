@@ -1,0 +1,41 @@
+.rt-product-instockitem{
+    border: 1px solid #CCC;
+    padding: 3px 5px;
+    .head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        line-height: 30px;
+        border-bottom: 1px solid #CCC;
+        padding: 1px 3px;
+
+    }
+
+    .body{
+        padding: 1px 3px;
+
+        .detail-list{
+            border: 1px solid #e1d7d7;
+            padding: 4px;
+            line-height: 25px;
+            margin-top: 10px;
+            .detail-item{
+                display: flex;
+                border-bottom: 1px solid #e1d7d7;
+                span{
+                    flex: 1;
+                    border-left: 1px solid #e1d7d7;
+                    padding-left: 6px;
+                    &:first-child{
+                        border-left-width: 0px;
+                    }
+                }
+            }
+        }
+    }
+    .foot{
+        font-size: 18px;
+        text-align: center;
+        padding: 5px;
+    }
+}

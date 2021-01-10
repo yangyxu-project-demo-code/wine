@@ -1,0 +1,51 @@
+.product-info{
+    margin: 5px;
+    .info-form{
+        border: 2px dashed #CCC;
+        padding: 5px;
+        margin: 5px 0px;
+    }
+    .avatar{
+        position: absolute;
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+    }
+    .details{
+        margin-left: 140px;
+        line-height: 30px;
+        display: flex;
+        min-height: 130px;
+        .fields{
+            border: 1px dashed #CCC;
+            margin: 3px;
+            padding: 5px;
+            .key{
+                width: 100px;
+                display: inline-block;
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .argv-list{
+        li{
+            display: flex;
+            display: flex;
+            line-height: 35px;
+            justify-content: space-around;
+            border-bottom: 1px dashed #ccc;
+            margin: 3px;
+            &>div{
+                flex: 1;
+                padding: 3px;
+                &.key{
+                    background-color: #f4f4f4;
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
